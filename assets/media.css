@@ -1,0 +1,72 @@
+@media screen and (max-width:  768px){
+
+	main{
+		flex-direction: column;
+	}
+
+	.texto{
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.botao{
+		width: 100%;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.botao-cript{
+		width: 50%;
+	}
+
+	.botao-descript{
+		width: 50%;
+	}
+
+	.artigo-img img{
+		display: none;
+	}
+}
+
+@media screen and (max-width:  375px){
+
+	body{
+		padding: 16px;
+	}
+
+	.img-logo{
+		margin: auto;
+	}
+
+	.principal{
+		padding: 0;
+		align-items: flex-start;
+	}
+
+	.texto{
+		margin-top: 30px;
+	}
+
+	.texto textarea{
+		width: 100%;
+		height: 480px;
+		font-weight: 400;
+		font-size: 30px;
+		word-wrap: break-word;
+	}
+
+	.botao{
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.botao-cript{
+		width: 100%;
+	}
+
+	.botao-descript{
+		width: 100%;
+	}
+
+}

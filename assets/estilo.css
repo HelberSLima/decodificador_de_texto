@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Inter:wght@200&family=Poppins:wght@300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --cor1: #757FB2;
+    --cor2: #AAB2D5;
+    --cor3: #E9ECF8;
+    --cor4: #EFF1FA;
+    --cor5: #F3F5FC;
+}
+
+
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    max-width: 1440;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top right, var(--cor1), var(--cor3), var(--cor5));
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.img-logo{
+    height: 58px;
+}
+
+.principal{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+}
+
+h1{
+    text-align: center;
+    color: var(--cor1);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 680px;
+}
+
+.texto textarea{
+    height: 400px;
+    width: 90%;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    resize: none;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.texto textarea::placeholder{
+    color: var(--cor1);
+}
+
+.botao{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botao-cript{
+    background-color: var(--cor1);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    width: 200px;
+    height: 19px;
+    padding: 19px 24px;
+    line-height: 1px;
+    border-radius: 24px;
+    border: 1px solid var(--cor1);
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.botao-descript{
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-weight: 400;
+    font-size: 16px;
+    width: 200px;
+    height: 19px;
+    padding: 19px 24px;
+    line-height: 1px;
+    border-radius: 24px;
+    border: 1px solid var(--cor1);
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.botao-cript:hover{
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    transition: 0.3s;
+}
+
+.botao-descript:hover{
+    cursor: pointer;
+    background-color: var(--cor1);
+    color: var(--cor4);
+    transition: 0.3s;
+}
+
+article{
+    flex: 1;
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+.artigo-img{
+    width: 336px;
+    height: 304px;
+}
+
+.frase-titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343a40;
+}
+
+.frase-subtitulo{
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+}
+
+.artigo-texto textarea {
+    height: 450px;
+    width: 95%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    resize: none;
+    color: var(--cor1);
+    background-color: inherit;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.artigo-botao {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-copia {
+    background-color: #F3F5FC;
+    color: var(--cor1);
+    font-weight: 400;
+    font-size: 16px;
+    width: 280px;
+    height: 19px;
+    padding: 19px 24px;
+    line-height: 1px;
+    border-radius: 24px;
+    border: 1px solid var(--cor1);
+}
+
+.botao-copia:hover {
+    cursor: pointer;
+    background-color: var(--cor1);
+    color: #F3F5FC;
+    transition: 0.3s;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 280px;
+    height: 90px;
+    border-top: 1px solid var(--cor1);
+}
+
+.info-page{
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--cor1);
+    padding-bottom: 10px;
+}
+
+.info-page a{
+    text-decoration: none;
+    color: black;
+}
+
+.info-page a:hover{
+    text-decoration: underline;
+}
+
+.footer-social{
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--cor1);
+}
+
+.footer-social a{
+    text-decoration: none;
+    color: black;
+}
+
+.gratefull{
+    font-size: 15px;
+    font-weight: bolder;
+    color: var(--cor1);
+}
+
+.gratefull a{
+    text-decoration: none;
+    color: black;
+}
+
+.gratefull a:hover{
+    text-decoration: underline;
+}
+
+.hlb:hover{
+    opacity: 0.7;
+}
